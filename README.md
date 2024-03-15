@@ -1,10 +1,10 @@
-# flutterflappyuuid
+# flutter_cached_uuid
 
-A new Flutter plugin.
+Get uuid for current project.
 
 ## Getting Started
 
-Flutterflappyuuid.getUUID();
+FlutterCachedUuid.getUUID();
 
 
 This project is a starting point for a Flutter
