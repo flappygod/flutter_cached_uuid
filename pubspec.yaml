@@ -1,7 +1,7 @@
 name: flutter_cached_uuid
 description: "A new Flutter project."
-version: 0.0.1
-homepage:
+version: 1.0.5
+homepage: https://github.com/flappygod/flutter_cached_uuid.git
 
 environment:
   sdk: '>=3.2.6 <4.0.0'
