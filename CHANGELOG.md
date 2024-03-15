@@ -1,3 +1,3 @@
-## 1.0.5
+## 1.0.6
 
-1.Changed form flutterflappyuuid
+1.Change function to static.
