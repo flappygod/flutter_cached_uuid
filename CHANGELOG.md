@@ -1,3 +1,3 @@
-## 1.0.6
+## 1.0.7
 
-1.Change function to static.
+1.Add descriptions.
