@@ -1,3 +1,3 @@
-## 1.0.7
+## 1.0.8
 
-1.Add descriptions.
+1.Remove unnecessary code PluginRegistry.Registrar 
