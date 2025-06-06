@@ -115,10 +115,12 @@ CFTypeRef FlappySSKeychainAccessibilityType = NULL;
 #if __has_feature(objc_arc)
     [query setObject:(__bridge id)kCFBooleanTrue forKey:(__bridge id)kSecReturnData];
     [query setObject:(__bridge id)kSecMatchLimitOne forKey:(__bridge id)kSecMatchLimit];
+    [query setObject:(__bridge id)kCFBooleanFalse forKey:(__bridge id)kSecAttrSynchronizable];
     status = SecItemCopyMatching((__bridge CFDictionaryRef)query, &result);
 #else
     [query setObject:(id)kCFBooleanTrue forKey:(id)kSecReturnData];
     [query setObject:(id)kSecMatchLimitOne forKey:(id)kSecMatchLimit];
+    [query setObject:(id)kCFBooleanFalse forKey:(id)kSecAttrSynchronizable];
     status = SecItemCopyMatching((CFDictionaryRef)query, &result);
 #endif
     
