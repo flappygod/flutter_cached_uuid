@@ -1,3 +1,3 @@
-## 1.0.8
+## 1.0.9
 
-1.Remove unnecessary code PluginRegistry.Registrar 
+1.Set kSecAttrSynchronizable to false to avoid sync.

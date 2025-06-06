@@ -1,6 +1,6 @@
 name: flutter_cached_uuid
 description: "Get uuid for current project.In Android,We use android id and fingerprint to generate the ID,In IOS,We use keychain to save the uuid."
-version: 1.0.8
+version: 1.0.9
 homepage: https://github.com/flappygod/flutter_cached_uuid.git
 
 environment:
